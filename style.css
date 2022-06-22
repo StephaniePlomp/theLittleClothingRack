@@ -61,7 +61,7 @@ nav li {
 }
 
 nav a {
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     font-size: var(--fs-400);
     padding: 1em;
@@ -154,7 +154,7 @@ btn-cart:focus {
 }
 
 .product-name {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .product__img {
@@ -687,7 +687,7 @@ textarea {
 
   .product {
       flex-direction: column;
-      width: 24em;
+      width: 90%;
   }
 
   .product-info {
@@ -700,8 +700,8 @@ textarea {
 
 
   nav ul {
-    margin-top: 20px;
-    padding: 47px;
+    margin-top: 30px;
+    padding: 40px;
   }
 
   nav a {
@@ -709,7 +709,7 @@ textarea {
   }
 
   .chain{
-      top: 80px;
+      top: 90px;
       width: 40px;
       height: 40px;
   }
@@ -726,12 +726,17 @@ textarea {
       height: 25px;
   }
 
+  .stick  {
+    top: 155px;
+  }
+
   .three {
     display: none;
   }
 
   .clouds {
     position: relative;
+    top: 20px;
   }
 
 /* ----- CONTACT---- */ 
